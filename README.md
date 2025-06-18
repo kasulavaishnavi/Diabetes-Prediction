@@ -36,11 +36,9 @@ Used multiple ML classifiers:
 - Focus on Recall, due to the medical importance of minimizing false negatives.
 
 Results
-
-Model             F1 Score  Precision  Recall
-KNN               ~0.76      ~0.74      ~0.78  
-Naive Bayes        ~0.73      ~0.69     ~0.78  
-SVM                ~0.75      ~0.74      ~0.76 
-Decision Tree      ~0.72      ~0.70      ~0.75 
-Random Forest      ~0.79      ~0.76      ~0.83 
-Logistic Regression  ~0.75    ~0.72      ~0.77 
+KNN        -   F1 Score :0.6666666666666666, Precision score is: 0.6976744186046512, Recall score is: 0.6382978723404256, accuracy is 0.81
+Naive Bayes     -   F1 Score :0.5813953488372093, Precision score is: 0.6410256410256411, Recall score is: 0.5319148936170213, accuracy is : 0.77  
+SVM         -      F1 Score : 0.6666666666666666, Precision score is: 0.6976744186046512, Recall score is: 0.6382978723404256, accuracy is : 0.82  
+Decision Tree -   F1 Score: 0.5675675675675675, Precision score is: 0.7777777777777778, Recall score is: 0.44680851063829785, accuracy is : 0.79  
+Random Forest -  F1 Score: 0.6666666666666666, Precision score is: 0.6976744186046512, Recall score is: 0.6382978723404256, accuracy is : 0.79  
+Logistic Regression  - F1 Score :0.627906976744186, Precision score is 0.6923076923076923, Recall score is: 0.574468085106383 ,accuracy is : 0.79  
